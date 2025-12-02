@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Grade Zéro - Panier</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cart-page">
+
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html"><h1>Le Grade Zéro</h1></a>
+        </div>
+        
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="films.html">Films</a></li>
+                <li><a href="series.html">Séries</a></li>
+                <li><a href="bd-comics.html">BD / Comics</a></li>
+                <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-actions">
+             <a href="panier.html" class="cart-icon-container">
+                <i class="fas fa-shopping-cart cart-icon"></i>
+                <span class="cart-count" id="cart-count">0</span>
+            </a>
+            
+            <button class="menu-toggle" aria-label="Menu de navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="films.html">Films</a></li>
+            <li><a href="series.html">Séries</a></li>
+            <li><a href="bd-comics.html">BD / Comics</a></li>
+            <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
+        </ul>
+    </nav>
+
+    <main class="panier-main">
+        <h2 class="product-section-title" style="border-bottom: none;">Votre Panier</h2>
+
+        <p id="empty-cart-message" style="text-align: center; margin-top: 2rem; font-size: 1.2rem; color: var(--color-secondary); display: none;">
+            Votre panier est vide. Ajoutez des produits pour commencer votre commande !
+        </p>
+
+        <div class="cart-header">
+            <p class="col-details">Produit</p>
+            <p class="col-price" style="text-align: right;">Prix Unitaire</p>
+            <p class="col-qty" style="text-align: center;">Quantité</p>
+            <p class="col-subtotal" style="text-align: right;">Total</p>
+            <p class="col-remove" style="text-align: center;">Retirer</p>
+        </div>
+
+        <div id="cart-items-container">
+            </div>
+
+        <div class="cart-summary">
+            <div class="subtotal-line">
+                <p>Sous-total des produits :</p>
+                <p id="products-subtotal-price">0 FCFA</p>
+            </div>
+            
+            <div class="total-line">
+                <p>Total général (avec frais) :</p>
+                <p id="cart-total-price">0 FCFA</p>
+            </div>
+            
+            <div class="cart-actions">
+                <button id="clear-cart-button" class="btn-clear-cart" disabled>
+                    <i class="fas fa-trash-alt"></i> Vider le panier
+                </button>
+                <button id="checkout-whatsapp-button" class="btn-whatsapp-checkout" disabled>
+                    <i class="fab fa-whatsapp"></i> Finaliser la commande (WhatsApp)
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

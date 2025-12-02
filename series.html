@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Grade Zéro - Séries</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-category="series">
+
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html"><h1>Le Grade Zéro</h1></a>
+        </div>
+        
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="films.html">Films</a></li>
+                <li><a href="series.html">Séries</a></li>
+                <li><a href="bd-comics.html">BD / Comics</a></li>
+                <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-actions">
+             <a href="panier.html" class="cart-icon-container">
+                <i class="fas fa-shopping-cart cart-icon"></i>
+                <span class="cart-count" id="cart-count">0</span>
+            </a>
+            
+            <button class="menu-toggle" aria-label="Menu de navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="films.html">Films</a></li>
+            <li><a href="series.html">Séries</a></li>
+            <li><a href="bd-comics.html">BD / Comics</a></li>
+            <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="product-section-title">Séries</h2>
+        
+        <div class="filter-controls" id="filter-controls">
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="search-input" class="search-input" placeholder="Rechercher un titre, une saison, un synopsis...">
+            </div>
+            
+            <div class="filter-group">
+                <label for="genre-filter">Genre:</label>
+                <select id="genre-filter" class="filter-select"></select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="year-filter">Année:</label>
+                <select id="year-filter" class="filter-select"></select>
+            </div>
+        </div>
+        
+        <div class="product-grid" id="product-catalogue-grid">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
