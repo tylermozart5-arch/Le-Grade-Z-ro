@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Grade Zéro - Panier</title>
+    <title>Le Grade Zéro - Mon Panier</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
@@ -21,6 +21,7 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="films.html">Films</a></li>
                 <li><a href="series.html">Séries</a></li>
+                <li><a href="mangas.html">Mangas</a></li> 
                 <li><a href="bd-comics.html">BD / Comics</a></li>
                 <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
             </ul>
@@ -43,50 +44,59 @@
             <li><a href="index.html">Accueil</a></li>
             <li><a href="films.html">Films</a></li>
             <li><a href="series.html">Séries</a></li>
+            <li><a href="mangas.html">Mangas</a></li> 
             <li><a href="bd-comics.html">BD / Comics</a></li>
             <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
         </ul>
     </nav>
 
-    <main class="panier-main">
-        <h2 class="product-section-title" style="border-bottom: none;">Votre Panier</h2>
-
-        <p id="empty-cart-message" style="text-align: center; margin-top: 2rem; font-size: 1.2rem; color: var(--color-secondary); display: none;">
-            Votre panier est vide. Ajoutez des produits pour commencer votre commande !
-        </p>
-
-        <div class="cart-header">
-            <p class="col-details">Produit</p>
-            <p class="col-price" style="text-align: right;">Prix Unitaire</p>
-            <p class="col-qty" style="text-align: center;">Quantité</p>
-            <p class="col-subtotal" style="text-align: right;">Total</p>
-            <p class="col-remove" style="text-align: center;">Retirer</p>
-        </div>
-
-        <div id="cart-items-container">
-            </div>
-
-        <div class="cart-summary">
-            <div class="subtotal-line">
-                <p>Sous-total des produits :</p>
-                <p id="products-subtotal-price">0 FCFA</p>
-            </div>
+    <main class="cart-main">
+        <h2 class="product-section-title">Votre Panier</h2>
+        
+        <div class="cart-container">
             
-            <div class="total-line">
-                <p>Total général (avec frais) :</p>
-                <p id="cart-total-price">0 FCFA</p>
-            </div>
+            <section class="cart-items">
+                <div class="cart-items-header">
+                    <p>Produit</p>
+                    <p class="dynamic-price-col">Prix Unitaire</p>
+                    <p>Quantité</p>
+                    <p>Sous-total</p>
+                    <p>Retirer</p>
+                </div>
+                
+                <div id="cart-items-container" class="cart-items-list">
+                    </div>
+                
+                <p id="empty-cart-message" class="empty-cart-message" style="display: none;">Votre panier est vide. <a href="index.html">Commencez vos achats !</a></p>
+                
+            </section>
             
-            <div class="cart-actions">
-                <button id="clear-cart-button" class="btn-clear-cart" disabled>
-                    <i class="fas fa-trash-alt"></i> Vider le panier
+            <section class="cart-summary">
+                <h3>Résumé de la Commande</h3>
+                
+                <div class="summary-line">
+                    <p>Sous-total des produits :</p>
+                    <p id="products-subtotal-price">0 FCFA</p>
+                </div>
+                
+                <div class="total-line">
+                    <h4>Total Général :</h4>
+                    <h4 id="cart-total-price">0 FCFA</h4>
+                </div>
+                
+                <p class="whatsapp-note">
+                    <i class="fas fa-info-circle"></i> Le paiement et la livraison numérique se font via WhatsApp pour sécuriser la transaction.
+                </p>
+                
+                <button id="checkout-whatsapp-button" class="btn-primary checkout-button" disabled>
+                    <i class="fab fa-whatsapp"></i> Commander (Paiement WhatsApp)
                 </button>
-                <button id="checkout-whatsapp-button" class="btn-whatsapp-checkout" disabled>
-                    <i class="fab fa-whatsapp"></i> Finaliser la commande (WhatsApp)
+                
+                <button id="clear-cart-button" class="btn-secondary clear-button" disabled>
+                    <i class="fas fa-trash-alt"></i> Vider le Panier
                 </button>
-            </div>
+            </section>
         </div>
-
     </main>
 
     <script src="script.js"></script>
