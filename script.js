@@ -283,69 +283,189 @@ const PRODUCTS = [
     },
     {
         id: 28, 
-        title: "Série: La Ligne de Front",
+        title: "Avengers (Marvel France - 2020): 2. Le starkronomicon",
         category: "series",
-        price: 11800,
+        price: 1500,
         genre: "Guerre", 
         year: 2021,
         duration: "Saison 1",
         synopsis: "Le quotidien d'une unité de soldats pendant la guerre froide.",
-        image_url: "https://i.imgur.com/20b2aa.png",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_385291.jpg",
         isOffer: false
     },
     
     // BD / COMICS
     {
         id: 2,
-        title: "BD: Le Dernier Gardien",
+        title: "Avengers (Marvel France - 2020): 1. La crise des dix royaumes",
         category: "bd-comics", 
-        price: 6500, 
-        genre: "Fantaisie", 
-        year: 2023, 
-        pages: 80,
-        synopsis: "Le dernier gardien de la Bibliothèque universelle doit protéger le savoir contre les Pillards du Néant.",
-        image_url: "https://i.imgur.com/4169e1.png",
+        price: 1500, 
+        genre: "Guerre", 
+        year: 2020, 
+        pages: 113,
+        synopsis: "C'est le début de l'invasion massive de Midgard (la Terre) par Malekith le Fléau et son armée des dix royaumes mythologiques, un événement crossover majeur dans l'univers Marvel.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_383213.jpg",
         isOffer: false
     },
     {
         id: 5,
-        title: "Comics: Chroniques de l'Ombre",
+        title: "Avengers (Marvel France - 2020): 2. Le starkronomicon",
         category: "bd-comics",
-        price: 3920, // -20% de 4900
-        originalPrice: 4900,
-        genre: "Fantaisie", 
-        year: 2023,
-        pages: 45,
-        synopsis: "Plongez dans un monde où la magie noire menace d'engloutir les royaumes.",
-        image_url: "https://i.imgur.com/8b0000.png",
+        price: 1200, // -20% de 1500
+        originalPrice: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 115,
+        synopsis: "Dans ce contexte, Tony Stark se retrouve à devoir affronter le dragon Sadurang qui attaque New York. Le problème est que la magie du dragon interfère avec l'armure high-tech de Tony, la rendant presque inutile. Son armure est même corrompue au point de se transformer temporairement en une sorte d'armure médiévale mystique qu'il ne maîtrise pas.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_385291.jpg",
         isOffer: true
     },
     {
-        id: 29, 
-        title: "BD: Les Machines oubliées",
+        id: 20,
+        title: "Avengers (Marvel France - 2020): 3. Instants volés",
         category: "bd-comics",
-        price: 7200,
-        genre: "Science-Fiction", 
-        year: 2024,
-        pages: 60,
-        synopsis: "Un voyage dans un futur post-apocalyptique dominé par l'IA.",
-        image_url: "https://i.imgur.com/ff4500.png",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 117,
+        synopsis: "Le statu quo est bouleversé : Asgard a chuté, et les héros de la Terre se retrouvent en première ligne d'un conflit qui les dépasse. Les Avengers, divisés et désorganisés, luttent pour contenir les invasions qui éclatent simultanément aux quatre coins du globe.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_387414.jpg",
         isOffer: false
     },
     {
         id: 30, 
-        title: "Comics: Aube Écarlate",
+        title: "Avengers (Marvel France - 2020): 4. Chambre d'écho",
         category: "bd-comics",
-        price: 5900,
-        genre: "Horreur", 
-        year: 2022,
-        pages: 55,
-        synopsis: "Une créature démoniaque se réveille dans une petite ville.",
-        image_url: "https://i.imgur.com/2c2c2c.png",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 117,
+        synopsis: "Les Avengers font face à une menace surnaturelle qui les mène à un défi des Ghost Riders forcé, mettant en lumière la mythologie entourant Robbie Reyes.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_396119.jpg",
         isOffer: false
     },
+    {
+        id: 47, 
+        title: "Avengers (Marvel France - 2020): 5. Le crépuscule du Dieu du tonnerre",
+        category: "bd-comics",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 116,
+        synopsis: "Robbie Reyes, le Ghost Rider actuel, cherche un moyen de se libérer de l'Esprit de la Vengeance qui l'habite. Un exorcisme est tenté, mais le rituel tourne mal, l'envoyant directement en Enfer.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_398168.jpg",
+        isOffer: false
+    },
+    {
+        id: 48, 
+        title: "Avengers (Marvel France - 2020): 6. Le projet Ultron",
+        category: "bd-comics",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 115,
+        synopsis: "L'heure est venue de l'affrontement final entre les Ghost Riderpour décrocher le titre de Roi de l'Enfer, sous l'œil vigilant des Avengers! Le roi Thor doit de nouveau affronter Gorr, tandis que Captain America croise un vieil ami…",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_400994.jpg",
+        isOffer: false
+    },
+    {
+        id: 49, 
+        title: "Avengers (Marvel France - 2020): 7. Carnage absolu",
+        category: "bd-comics",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 113,
+        synopsis: "Cletus Kasady, l'hôte originel du symbiote Carnage, est de retour d'entre les morts. Plus puissant et plus psychopathe que jamais, il ne recherche pas seulement le symbiote Venom de son ancien camarade Eddie Brock, mais cible méthodiquement quiconque a un jour porté l'un des symbiotes extraterrestres.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_402750.jpg",
+        isOffer: false
+    },
+    {
+        id: 50, 
+        title: "Avengers (Marvel France - 2020): 8. Le retour de Starbrand",
+        category: "bd-comics",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 112,
+        synopsis: "Le précédent Starbrand ayant été accidentellement tué par Ghost Rider, son immense pouvoir cosmique erre dans l'univers à la recherche d'un nouvel hôte.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_404839.jpg",
+        isOffer: false
+    },
+    {
+        id: 51, 
+        title: "Avengers (Marvel France - 2020): 9. Le Roi Dévoreur",
+        category: "bd-comics",
+        price: 1800,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 114,
+        synopsis: "Devenu le nouveau roi d'Asgard après la Guerre des Royaumes, Thor peine à assumer ses nouvelles responsabilités. C'est alors que Galactus, le Dévoreur de Mondes, s'écrase, gravement blessé, sur Asgard.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_407499.jpg",
+        isOffer: false
+    },
+    {
+        id: 52, 
+        title: "Avengers (Marvel France - 2020): 10. Nativité stellaire",
+        category: "bd-comics",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 113,
+        synopsis: "Les Avengers découvrent le nouveau Starbrand, Thor choisit de suivre Galactus, Iron Man est piégé à l'Âge de Pierre et Arno Stark est confronté à la révolution des robots.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_410712.jpg",
+        isOffer: false
+    },
+    {
+        id: 53, 
+        title: "Avengers (Marvel France - 2020): Nexus war: Thor",
+        category: "bd-comics",
+        price: 1800,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 122,
+        synopsis: "Afin d’empêcher l’apparition de l’entité destructrice d’univers connue sous le nom d’Hiver Noir, Thor accepte à contrecœur de devenir le héraut de Galactus.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_413985.jpg",
+        isOffer: false
+    },
+    {
+        id: 54, 
+        title: "Avengers (Marvel France - 2020): L'ère de Khonshu (1)",
+        category: "bd-comics",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 110,
+        synopsis: "Khonshu a des visions prophétiques terrifiantes sur la fin du monde, causée par le démon Méphisto. Convaincu que les Avengers sont incapables de gérer cette menace, Khonshu décide d'agir à sa manière radicale.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_416190.jpg",
+        isOffer: false
+    },
+    {
+        id: 55, 
+        title: "Avengers (Marvel France - 2020): L'ère de Khonshu (2)",
+        category: "bd-comics",
+        price: 1500,
+        genre: "Guerre", 
+        year: 2020,
+        pages: 104,
+        synopsis: "Khonshu, le dieu égyptien de la lune et de la vengeance, a réussi à vaincre la plupart des Avengers un par un, en utilisant son avatar Moon Knight pour absorber leurs pouvoirs",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_419343.jpg",
+        isOffer: false
+    },
+    {
+        id: 56, 
+        title: "Miles Morales (2e série): 2. Mauvais sang",
+        category: "bd-comics",
+        price: 1200,
+        genre: "Aventure", 
+        year: 2023,
+        pages: 104,
+        synopsis: " Alors que des vilains majeurs comme Carnage et le Super-Bouffon s'en prennent à lui, son plus grand défi devient la gestion de ses propres émotions et responsabilités.",
+        image_url: "https://www.bedetheque.com/media/Couvertures/Couv_496029.jpg",
+        isOffer: false
+    },                                                     
     
-    // JEUX VIDÉOS (Mise à jour pour inclure les plateformes spécifiques)
+    // JEUX VIDÉOS
     {
         id: 3,
         title: "Jeu: Cyber-Racer 2077",
@@ -354,7 +474,7 @@ const PRODUCTS = [
         originalPrice: 9900,
         genre: "Course", 
         year: 2024,
-        platform: "PC", // CHANGÉ
+        platform: "PC", 
         synopsis: "Course futuriste illégale dans les rues néon de Neo-Tokyo. Téléchargement direct après achat.",
         image_url: "https://i.imgur.com/008000.png",
         isOffer: true
@@ -366,7 +486,7 @@ const PRODUCTS = [
         price: 15500,
         genre: "RPG", 
         year: 2024,
-        platform: "PS3", // CHANGÉ
+        platform: "PS3", 
         synopsis: "Un jeu de rôle épique dans un monde ouvert peuplé de monstres et de quêtes mystérieuses.",
         image_url: "https://i.imgur.com/0000ff.png", 
         isOffer: false
@@ -378,7 +498,7 @@ const PRODUCTS = [
         price: 4900,
         genre: "Stratégie", 
         year: 2023,
-        platform: "Mobile Android", // NOUVEAU
+        platform: "Mobile Android", 
         synopsis: "Jeu de stratégie au tour par tour. Disponible pour appareils mobiles Android.",
         image_url: "https://i.imgur.com/4f4f4f.png", 
         isOffer: false
@@ -390,7 +510,7 @@ const PRODUCTS = [
         price: 12500,
         genre: "Action", 
         year: 2022,
-        platform: "PS2", // NOUVEAU
+        platform: "PS2", 
         synopsis: "Un beat'em up classique avec des graphismes remasterisés.",
         image_url: "https://i.imgur.com/8f8f8f.png", 
         isOffer: false
@@ -402,7 +522,7 @@ const PRODUCTS = [
         price: 3500,
         genre: "Sport", 
         year: 2024,
-        platform: "Mobile Android", // NOUVEAU
+        platform: "Mobile Android", 
         synopsis: "Jeu de football rapide et amusant. Idéal pour les petits écrans.",
         image_url: "https://i.imgur.com/f0f8ff.png", 
         isOffer: false
@@ -414,8 +534,154 @@ const PRODUCTS = [
         price: 18000,
         genre: "Aventure", 
         year: 2024,
-        platform: "PS3", // NOUVEAU
+        platform: "PS3", 
         synopsis: "Une aventure en monde ouvert avec des énigmes complexes.",
+        image_url: "https://i.imgur.com/ff4500.png", 
+        isOffer: false
+    },
+    
+    // MANGAS (NOUVELLE CATÉGORIE)
+    {
+        id: 35,
+        title: "Manga: L'Ascension du Sorcier",
+        category: "mangas",
+        price: 5900,
+        genre: "Shonen", // Genre 1
+        year: 2024,
+        pages: 180,
+        synopsis: "Un jeune garçon sans pouvoir magique se lance dans une quête pour devenir le plus grand sorcier.",
+        image_url: "https://i.imgur.com/4169e1.png", 
+        isOffer: false
+    },
+    {
+        id: 36,
+        title: "Manga: Le Clan des Esprits",
+        category: "mangas",
+        price: 4800,
+        genre: "Shôjo", // Genre 2
+        year: 2023,
+        pages: 170,
+        synopsis: "Une lycéenne découvre qu'elle est la dernière descendante d'un clan capable de communiquer avec les esprits de la nature.",
+        image_url: "https://i.imgur.com/f0f8ff.png", 
+        isOffer: false
+    },
+    {
+        id: 37,
+        title: "Manga: Chroniques de Cyber-Tokyo",
+        category: "mangas",
+        price: 6500,
+        genre: "Seinen", // Genre 3
+        year: 2024,
+        pages: 200,
+        synopsis: "Une histoire cyberpunk sombre et mature sur la lutte contre un gouvernement dystopique.",
+        image_url: "https://i.imgur.com/6a5acd.png", 
+        isOffer: false
+    },
+    {
+        id: 38,
+        title: "Manga: La Cuisine d'Akira",
+        category: "mangas",
+        price: 4500,
+        genre: "Tranche de vie", // Genre 4
+        year: 2022,
+        pages: 160,
+        synopsis: "Suivez le quotidien apaisant d'un jeune chef ouvrant son premier restaurant.",
+        image_url: "https://i.imgur.com/8b0000.png", 
+        isOffer: true
+    },
+    {
+        id: 39,
+        title: "Manga: L'Armée des Ténèbres",
+        category: "mangas",
+        price: 5500,
+        genre: "Horreur", // Genre 5
+        year: 2023,
+        pages: 180,
+        synopsis: "Des phénomènes surnaturels terrifiants frappent une petite communauté rurale.",
+        image_url: "https://i.imgur.com/2c2c2c.png", 
+        isOffer: false
+    },
+    {
+        id: 40,
+        title: "Manga: L'Ère des Dragons",
+        category: "mangas",
+        price: 7000,
+        genre: "Fantaisie", // Genre 6
+        year: 2024,
+        pages: 190,
+        synopsis: "Un monde où les humains cohabitent avec des dragons, jusqu'à ce que la guerre éclate.",
+        image_url: "https://i.imgur.com/8f8f8f.png", 
+        isOffer: false
+    },
+    {
+        id: 41,
+        title: "Manga: Le Code M",
+        category: "mangas",
+        price: 6000,
+        genre: "Mystère", // Genre 7
+        year: 2023,
+        pages: 175,
+        synopsis: "Une série d'énigmes complexes mène un détective amateur sur la piste d'un tueur en série.",
+        image_url: "https://i.imgur.com/4f4f4f.png", 
+        isOffer: false
+    },
+    {
+        id: 42,
+        title: "Manga: Course pour l'Espace",
+        category: "mangas",
+        price: 5800,
+        genre: "Sport", // Genre 8
+        year: 2024,
+        pages: 160,
+        synopsis: "L'histoire d'un athlète qui rêve de participer aux jeux olympiques de l'espace.",
+        image_url: "https://i.imgur.com/008000.png", 
+        isOffer: false
+    },
+    {
+        id: 43,
+        title: "Manga: Rire à En mourir",
+        category: "mangas",
+        price: 4500,
+        genre: "Comédie", // Genre 9
+        year: 2023,
+        pages: 150,
+        synopsis: "Un manga burlesque et absurde qui suit les péripéties d'un groupe d'amis excentriques.",
+        image_url: "https://i.imgur.com/f08080.png", 
+        isOffer: true
+    },
+    {
+        id: 44,
+        title: "Manga: Amour et Destin",
+        category: "mangas",
+        price: 5200,
+        genre: "Romance", // Genre 10
+        year: 2022,
+        pages: 170,
+        synopsis: "Un triangle amoureux compliqué au sein d'un club de lycée.",
+        image_url: "https://i.imgur.com/0000ff.png", 
+        isOffer: false
+    },
+    {
+        id: 45,
+        title: "Manga: La Légende des Samouraïs",
+        category: "mangas",
+        price: 6200,
+        genre: "Historique", // Genre 11
+        year: 2024,
+        pages: 195,
+        synopsis: "Une épopée au cœur de l'ère Sengoku, suivant un samouraï déchu.",
+        image_url: "https://i.imgur.com/20b2aa.png", 
+        isOffer: false
+    },
+    {
+        id: 46,
+        title: "Manga: Aventure Galactique",
+        category: "mangas",
+        price: 6900,
+        genre: "Aventure", // Genre 12
+        year: 2023,
+        pages: 185,
+        synopsis: "L'histoire d'un équipage spatial explorant des galaxies lointaines et dangereuses.",
         image_url: "https://i.imgur.com/ff4500.png", 
         isOffer: false
     }
@@ -462,7 +728,7 @@ function initFilters(category) {
     const genreFilter = document.getElementById('genre-filter');
     const yearFilter = document.getElementById('year-filter');
     const sortFilter = document.getElementById('sort-filter');
-    const platformFilter = document.getElementById('platform-filter'); // NOUVEAU FILTRE PLATEFORME
+    const platformFilter = document.getElementById('platform-filter'); 
     const searchInput = document.getElementById('search-input');
     const filterContainer = document.getElementById('filter-controls');
 
@@ -471,7 +737,7 @@ function initFilters(category) {
     // Récupère les genres, années et plateformes uniques
     let relevantGenres = new Set(relevantProducts.map(p => p.genre).filter(Boolean));
     let relevantYears = new Set(relevantProducts.map(p => p.year).filter(Boolean));
-    let relevantPlatforms = new Set(relevantProducts.map(p => p.platform).filter(Boolean)); // NOUVEAU
+    let relevantPlatforms = new Set(relevantProducts.map(p => p.platform).filter(Boolean));
 
     // Remplissage du filtre GENRE
     if (genreFilter) {
@@ -517,8 +783,8 @@ function initFilters(category) {
         });
     }
     
-    // Initialise l'ordre par défaut pour la page BD/Comics si le tri est présent
-    if (category === 'bd-comics' && sortFilter) {
+    // Initialise l'ordre par défaut pour les pages BD/Comics et MANGAS
+    if ((category === 'bd-comics' || category === 'mangas') && sortFilter) {
         sortFilter.value = 'title-asc'; 
     }
 }
@@ -528,7 +794,7 @@ function filterAndRenderProducts(category) {
     const genre = document.getElementById('genre-filter')?.value;
     const year = document.getElementById('year-filter')?.value;
     const sortValue = document.getElementById('sort-filter')?.value || 'default'; 
-    const platform = document.getElementById('platform-filter')?.value; // NOUVEAU
+    const platform = document.getElementById('platform-filter')?.value; 
 
     
     let filteredProducts = PRODUCTS.filter(p => category === 'all' || p.category === category);
@@ -596,7 +862,7 @@ function renderProducts(category, productsToRender = PRODUCTS) {
 
 
 // **********************************************
-// LOGIQUE PRODUIT ET MODALE (inchangée)
+// LOGIQUE PRODUIT ET MODALE
 // **********************************************
 
 function createProductCard(product) {
@@ -647,7 +913,7 @@ function handleProductClick(event) {
 function showProductModal(product) {
     closeProductModal(); 
     
-    const details = product.category === 'bd-comics'
+    const details = product.category === 'bd-comics' || product.category === 'mangas'
         ? `<p><strong>Pages :</strong> ${product.pages}</p>`
         : product.category === 'films' || product.category === 'series'
         ? `<p><strong>Durée :</strong> ${product.duration}</p>`
@@ -720,7 +986,7 @@ function handleWhatsAppBuy(productId) {
 
 
 // **********************************************
-// LOGIQUE PANIER ET TOAST (inchangée)
+// LOGIQUE PANIER
 // **********************************************
 
 function addToCart(productId) {
@@ -755,6 +1021,7 @@ function renderCartItems() {
     const clearButton = document.getElementById('clear-cart-button');
     
     const summary = document.querySelector('.cart-summary');
+    // Trouve ou crée la ligne des frais de transaction pour la section Résumé
     let feeLine = summary.querySelector('.shipping-line');
     
     if (!container || !totalPriceElement || !productsSubtotalElement) return; 
@@ -763,6 +1030,7 @@ function renderCartItems() {
     let productsSubtotal = 0;
 
     if (cart.length === 0) {
+        // Affichage si le panier est vide
         if (emptyMessage) emptyMessage.style.display = 'block';
         if (checkoutButton) checkoutButton.disabled = true;
         if (clearButton) clearButton.disabled = true;
@@ -771,6 +1039,7 @@ function renderCartItems() {
         totalPriceElement.textContent = `0 ${CURRENCY_SYMBOL}`;
 
     } else {
+        // Affichage si le panier a des articles
         if (emptyMessage) emptyMessage.style.display = 'none';
         if (checkoutButton) checkoutButton.disabled = false;
         if (clearButton) clearButton.disabled = false;
@@ -811,6 +1080,7 @@ function renderCartItems() {
             container.appendChild(itemHTML);
         });
         
+        // Ajout de la ligne des frais de transaction s'il n'existe pas
         if (!feeLine) {
             feeLine = document.createElement('div');
             feeLine.className = 'shipping-line';
@@ -905,7 +1175,7 @@ function attachCartListeners() {
 
 
 // **********************************************
-// FONCTIONS DE NOTIFICATION TOAST (inchangée)
+// FONCTIONS DE NOTIFICATION TOAST
 // **********************************************
 
 function showToastNotification(message, type = 'info') {
