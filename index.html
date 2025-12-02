@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Grade Zéro - Bibliothèque Numérique</title>
+    <title>Le Grade Zéro - Accueil</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
     <link rel="stylesheet" href="style.css">
 </head>
-<body data-category="all">
+<body data-category="all"> 
 
     <header class="main-header">
         <div class="logo">
@@ -21,6 +21,7 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="films.html">Films</a></li>
                 <li><a href="series.html">Séries</a></li>
+                <li><a href="mangas.html">Mangas</a></li> 
                 <li><a href="bd-comics.html">BD / Comics</a></li>
                 <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
             </ul>
@@ -43,18 +44,31 @@
             <li><a href="index.html">Accueil</a></li>
             <li><a href="films.html">Films</a></li>
             <li><a href="series.html">Séries</a></li>
+            <li><a href="mangas.html">Mangas</a></li> 
             <li><a href="bd-comics.html">BD / Comics</a></li>
             <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2 class="product-section-title">Catalogue Complet</h2>
+        
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Toute la culture numérique, sans frais cachés.</h1>
+                <p>Films 4K, Séries, Mangas, BD/Comics et Jeux Vidéos disponibles instantanément.</p>
+                <div class="hero-buttons">
+                    <a href="films.html" class="btn-primary">Explorer le Catalogue</a>
+                    <a href="panier.html" class="btn-secondary">Voir mon Panier</a>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="product-section-title">Nos Offres du Moment</h2>
         
         <div class="filter-controls" id="filter-controls">
             <div class="search-container">
                 <i class="fas fa-search search-icon"></i>
-                <input type="text" id="search-input" class="search-input" placeholder="Rechercher un titre, un synopsis...">
+                <input type="text" id="search-input" class="search-input" placeholder="Rechercher sur tout le site...">
             </div>
             
             <div class="filter-group">
@@ -65,6 +79,17 @@
             <div class="filter-group">
                 <label for="year-filter">Année:</label>
                 <select id="year-filter" class="filter-select"></select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="sort-filter">Trier par:</label>
+                <select id="sort-filter" class="filter-select">
+                    <option value="default">Défaut</option>
+                    <option value="title-asc">Titre (A-Z)</option>
+                    <option value="title-desc">Titre (Z-A)</option>
+                    <option value="year-desc">Année (Récent)</option>
+                    <option value="year-asc">Année (Ancien)</option>
+                </select>
             </div>
         </div>
         
