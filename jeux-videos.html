@@ -21,6 +21,7 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="films.html">Films</a></li>
                 <li><a href="series.html">Séries</a></li>
+                <li><a href="mangas.html">Mangas</a></li> 
                 <li><a href="bd-comics.html">BD / Comics</a></li>
                 <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
             </ul>
@@ -43,6 +44,7 @@
             <li><a href="index.html">Accueil</a></li>
             <li><a href="films.html">Films</a></li>
             <li><a href="series.html">Séries</a></li>
+            <li><a href="mangas.html">Mangas</a></li> 
             <li><a href="bd-comics.html">BD / Comics</a></li>
             <li><a href="jeux-videos.html">Jeux Vidéos</a></li>
         </ul>
@@ -55,6 +57,17 @@
             <div class="search-container">
                 <i class="fas fa-search search-icon"></i>
                 <input type="text" id="search-input" class="search-input" placeholder="Rechercher un titre, une plateforme, un genre...">
+            </div>
+            
+            <div class="filter-group">
+                <label for="sort-filter">Trier par:</label>
+                <select id="sort-filter" class="filter-select">
+                    <option value="default">Défaut</option>
+                    <option value="title-asc">Titre (A-Z)</option>
+                    <option value="title-desc">Titre (Z-A)</option>
+                    <option value="year-desc">Année (Récent)</option>
+                    <option value="year-asc">Année (Ancien)</option>
+                </select>
             </div>
             
             <div class="filter-group">
